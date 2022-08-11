@@ -7,6 +7,15 @@
     <!-- ADD FAVICON -->
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
 
+    <!-- ANIMATE CSS -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> -->
+
+    <!-- AOS ANIMATE -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./css/style.css" />
 
@@ -105,7 +114,7 @@
             </div>
 
             <div class="hero-rate-container">
-              <div class="hero-rate">
+              <div class="hero-rate" data-aos="fade-down">
                 <div class="hero-rate-box">
                   <h3 class="hero-rate-number">280<span>+</span></h3>
                   <p class="hero-rate-text">Google Review</p>
@@ -298,22 +307,21 @@
         <div class="blog-container container grid grid--2-cols">
           <div class="blog-header">
             <p class="blog-header-subheading subheading-secondary">Benefits</p>
-  
+
             <h2 class="blog-header-heading heading-secondary">Why choose us</h2>
-            
+
             <p class="blog-header-text font-26">
-              Renty is a trustworthy developer in the real estate business. He has
-              developed a reputation for trust and will have that reputation for
-              years to come.
+              Renty is a trustworthy developer in the real estate business. He
+              has developed a reputation for trust and will have that reputation
+              for years to come.
             </p>
-  
+
             <div class="blog-benefits grid">
-              
               <div class="blog-benefits-des">
                 <ion-icon name="code-download"></ion-icon>
                 <p class="subheading-secondary">Trusted Developer</p>
               </div>
-              
+
               <div class="blog-benefits-des">
                 <ion-icon name="alert"></ion-icon>
                 <p class="subheading-secondary">No Commisions</p>
@@ -328,7 +336,6 @@
                 <ion-icon name="home"></ion-icon>
                 <p class="subheading-secondary">Buy with Confidence</p>
               </div>
-
             </div>
           </div>
 
@@ -338,15 +345,195 @@
         </div>
       </section>
 
-      <!-- WHY CHOOSE US -->
-      <section class="wcu"></section>
+      <!-- POPULAR -->
+      <section class="popular">
+        <div class="container">
+          <p class="subheading-secondary">Popular</p>
+
+          <div class="popular-header">
+            <h2 class="heading-secondary">Homes for Renty News And Stories</h2>
+            <div class="popular-btn">
+              <button>
+                <ion-icon
+                  name="chevron-back-outline"
+                  class="popular-btn-click"
+                ></ion-icon>
+              </button>
+
+              <button>
+                <ion-icon
+                  name="chevron-forward-outline"
+                  class="popular-btn-click"
+                ></ion-icon>
+              </button>
+            </div>
+          </div>
+
+          <div class="popular-pic">
+            <div class="popular-box-img">
+              <img src="./img/houses/house-1.png" alt="" />
+              <div class="popular-img-text">
+                <p class="popular-img-header">Editorial House</p>
+                <p>JL. Kencana oke. No2 universen</p>
+              </div>
+            </div>
+
+            <div class="popular-box-img">
+              <img src="./img/houses/house-2.png" alt="" />
+              <div class="popular-img-text">
+                <p class="popular-img-header">Editorial House</p>
+                <p>JL. Kencana oke. No2 universen</p>
+              </div>
+            </div>
+
+            <div class="popular-box-img">
+              <img src="./img/houses/house-3.png" alt="" />
+              <div class="popular-img-text">
+                <p class="popular-img-header">Editorial House</p>
+                <p>JL. Kencana oke. No2 universen</p>
+              </div>
+            </div>
+
+            <div class="popular-box-img">
+              <img src="./img/houses/house-4.png" alt="" />
+              <div class="popular-img-text">
+                <p class="popular-img-header">Editorial House</p>
+                <p>JL. Kencana oke. No2 universen</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- FAQs -->
-      <section class="faq"></section>
+      <section class="faq" id="faq">
+        <div class="container">
+          <div class="faq-header">
+            <h2 class="heading-secondary">
+              FAQ's - Frequently Asked Questions
+            </h2>
+            <p class="font-26">
+              As you might imagine, real estate agents field quite a few
+              questions every day. People are naturally curious, and it's an
+              agent's job to guide.
+            </p>
+          </div>
+
+          <div class="faq-box">
+            <div class="faq-question-box">
+              <div class="faq-box-header">
+                <h4 class="faq-question">
+                  How can I build equity into my house?
+                </h4>
+                <ion-icon name="add" class="faq-icon"></ion-icon>
+              </div>
+              <p class="faq-des">
+                You can build equity in three ways. First (and easiest) is from
+                market appreciation. Second, when making your monthly mortgage
+                payment, try to send a little bit more.
+              </p>
+            </div>
+
+            <div class="faq-question-box">
+              <div class="faq-box-header">
+                <h4 class="faq-question">How big is an acre?</h4>
+                <ion-icon name="add" class="faq-icon"></ion-icon>
+              </div>
+              <p class="faq-des">
+                You can build equity in three ways. First (and easiest) is from
+                market appreciation. Second, when making your monthly mortgage
+                payment, try to send a little bit more.
+              </p>
+            </div>
+
+            <div class="faq-question-box">
+              <div class="faq-box-header">
+                <h4 class="faq-question">What are closing costs?</h4>
+                <ion-icon name="add" class="faq-icon"></ion-icon>
+              </div>
+              <p class="faq-des">
+                You can build equity in three ways. First (and easiest) is from
+                market appreciation. Second, when making your monthly mortgage
+                payment, try to send a little bit more.
+              </p>
+            </div>
+
+            <div class="faq-question-box">
+              <div class="faq-box-header">
+                <h4 class="faq-question">What is Title Insurance?</h4>
+                <ion-icon name="add" class="faq-icon"></ion-icon>
+              </div>
+              <p class="faq-des">
+                You can build equity in three ways. First (and easiest) is from
+                market appreciation. Second, when making your monthly mortgage
+                payment, try to send a little bit more.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-container-box-1">
+            <h5 class="footer-box-header">More Renty</h5>
+            <ul class="footer-link">
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Feedback</a></li>
+              <li><a href="">Join Our Community</a></li>
+              <li><a href="">Agent support</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-container-box-2">
+            <h5 class="footer-box-header">Stay connected</h5>
+            <p class="footer-email-des">
+              Sign up for inspiration for nourishing your body, mind and shine
+              from inside. Added bonus: you'll get 10% off your first Renty
+              order.
+            </p>
+            <form action="" class="footer-email-form">
+              <input type="text" placeholder="Email Address" />
+              <button>Subcribe</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-box-social">
+          <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+          <a href="">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+          <a href="">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+          <a href="">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </div>
+
+        <p class="company-des">
+          Renty Group is committed to ensuring digital accessibility for
+          individuals with disabilities. We are continuously working to improve
+          the accessibility of our web experience for everyone.
+        </p>
+
+        <hr />
+
+        <div class="footer-page-des font-14">
+          <p>©uihut.com 2022. All Rights Reserved.</p>
+          <div class="footer-page-privacy">
+            <a href="">Terms of Use</a>
+            <a href="">Terms & Privacy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- IONICON SCRIPT -->
     <script
@@ -357,5 +544,8 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
+    <!--AOS ANIMATE SCRIPT  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>

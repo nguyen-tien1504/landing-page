@@ -55,15 +55,68 @@
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   /* FEATURES */
-  .features{
+  .features {
     position: relative;
   }
-  .features-header-subtitle{
+  .features-header-subtitle {
     position: absolute;
     top: 100%;
     left: 50%;
     transform: translate(-50%);
+  }
+
+  /* POPULAR */
+
+  .popular-btn {
+    display: none;
+  }
+
+  /* FAQ */
+  .faq-header p {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .faq-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .faq-box {
+    margin: 32px auto 48px;
+    height: 600px;
+  }
+
+  .faq-box-container {
+    padding: 22px 12px 26px;
+  }
+
+  .faq-des {
+    padding: 0;
+  }
+
+  /* FOOTER */
+  .footer {
+    margin: 90px auto 40px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 58px;
+  }
+
+  .footer-container-box-2 {
+    width: 100%;
+  }
+
+  .company-des {
+    margin-top: 42px;
+  }
+
+  .footer-page-des,
+  .footer-page-privacy {
+    flex-direction: column;
+    gap: 18px;
   }
 }
